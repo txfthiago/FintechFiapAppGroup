@@ -62,11 +62,11 @@ public class Goal {
     @Override
     public String toString() {
         return "Meta{" +
-                "id=" + id +
-                ", target=" + target +
-                ", description='" + description + '\'' +
-                ", date=" + date +
-                ", balance=" + balance +
-                '}';
+                "\n  id=" + id +
+                "\n  target=" + target +
+                "\n  description='" + description + '\'' +
+                "\n  date=" + date +
+                "\n  balance=" + balance +
+                "\n}";
     }
 }

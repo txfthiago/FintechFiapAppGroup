@@ -21,17 +21,16 @@ public class PhysicalPerson extends UserEntity {
 
     @Override
     public String toString() {
-        return "PhysicalPerson{" +
-                "id=" + getId() +
-                ", name='" + getName() + '\'' +
-                ", legalPerson=" + isLegalPerson() +
-                ", email='" + getEmail() + '\'' +
-                ", passWord='" + getPassWord() + '\'' +
-                ", accounts=" + getAccounts() +
-                ", goals=" + getGoals() +
-                ", reports=" + getReports() +
-                ", cpf='" + cpf + '\'' +
-                '}';
+        return "\nLegalPerson{" +
+                "\n  id=" + getId() +
+                "\n  name='" + getName() + '\'' +
+                "\n  legalPerson=" + isLegalPerson() +
+                "\n  email='" + getEmail() + '\'' +
+                "\n  passWord='" + getPassWord() + '\'' +
+                "\n  accounts=" + getAccounts() +
+                "\n  goals=" + getGoals() +
+                "\n  cpf='" + cpf + '\'' +
+                "\n}";
     }
 
 }

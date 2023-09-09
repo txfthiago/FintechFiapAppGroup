@@ -71,13 +71,13 @@ public class Transaction {
     @Override
     public String toString() {
         return "Transaction{" +
-                "id=" + id +
-                ", amount=" + amount +
-                ", sender=" + sender +
-                ", dateTime=" + dateTime +
-                ", description='" + description + '\'' +
-                ", category=" + category +
-                '}';
+                "\n  id=" + id +
+                "\n  amount=" + amount +
+                "\n  sender=" + sender +
+                "\n  dateTime=" + dateTime +
+                "\n  description='" + description + '\'' +
+                "\n  category=" + category +
+                "\n}";
     }
 
 }

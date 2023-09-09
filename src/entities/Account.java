@@ -50,11 +50,11 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", balance=" + balance +
-                ", extract=" + extract +
-                '}';
+        return "  Account{"  +
+                "\n  id=" + id +
+                "\n  name='" + name + '\'' +
+                "\n  balance=" + balance +
+                "\n  extract=" + extract +
+                "\n}";
     }
 }
