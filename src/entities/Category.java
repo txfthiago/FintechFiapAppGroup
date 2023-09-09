@@ -38,10 +38,10 @@ public class Category {
     @Override
     public String toString() {
         return "Category{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                '}';
+                "\n  id=" + id +
+                "\n  name='" + name + '\'' +
+                "\n  type='" + type + '\'' +
+                "\n}";
     }
 
 }

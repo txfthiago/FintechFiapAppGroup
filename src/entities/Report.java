@@ -40,10 +40,10 @@ public class Report {
     @Override
     public String toString() {
         return "Report{" +
-                "id=" + id +
-                ", conclusion='" + conclusion + '\'' +
-                ", transactions=" + transactions +
-                '}';
+                "\n  id=" + id +
+                "\n  conclusion='" + conclusion + '\'' +
+                "\n  transactions=" + transactions +
+                "\n}";
     }
 
 }

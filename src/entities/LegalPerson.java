@@ -20,16 +20,15 @@ public class LegalPerson extends UserEntity {
 
     @Override
     public String toString() {
-        return "LegalPerson{" +
-                "id=" + getId() +
-                ", name='" + getName() + '\'' +
-                ", legalPerson=" + isLegalPerson() +
-                ", email='" + getEmail() + '\'' +
-                ", passWord='" + getPassWord() + '\'' +
-                ", accounts=" + getAccounts() +
-                ", goals=" + getGoals() +
-                ", reports=" + getReports() +
-                ", cnpj='" + cnpj + '\'' +
-                '}';
+        return "\nLegalPerson{" +
+                "\n  id=" + getId() +
+                "\n  name='" + getName() + '\'' +
+                "\n  legalPerson=" + isLegalPerson() +
+                "\n  email='" + getEmail() + '\'' +
+                "\n  passWord='" + getPassWord() + '\'' +
+                "\n  accounts=" + getAccounts() +
+                "\n  goals=" + getGoals() +
+                "\n  cnpj='" + cnpj + '\'' +
+                "\n}";
     }
 }
